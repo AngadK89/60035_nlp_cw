@@ -1,0 +1,8 @@
+pandas 
+numpy
+spacy
+torch
+huggingface
+transformers
+ipykernel
+matplotlib
