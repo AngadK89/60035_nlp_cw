@@ -7,3 +7,4 @@ transformers
 ipykernel
 matplotlib
 datasets
+scikit-learn
