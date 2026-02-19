@@ -6,3 +6,4 @@ huggingface
 transformers
 ipykernel
 matplotlib
+datasets
