@@ -8,3 +8,5 @@ ipykernel
 matplotlib
 datasets
 scikit-learn
+nltk
+wordcloud
