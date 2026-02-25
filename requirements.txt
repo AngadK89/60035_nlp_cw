@@ -3,10 +3,12 @@ numpy
 spacy
 torch
 huggingface
-transformers
+transformers[torch]
 ipykernel
 matplotlib
 datasets
 scikit-learn
 nltk
 wordcloud
+sentencepiece
+protobuf
