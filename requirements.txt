@@ -10,5 +10,3 @@ datasets
 scikit-learn
 nltk
 wordcloud
-sentencepiece
-protobuf
