@@ -56,15 +56,15 @@ def substitute_words(texts, labels, filepath, top_k=5, aug_p=0.1):
 
     return df_cwe
 
-if __name__ == "__main__":
-    df = pd.read_csv("data/train_data.csv")
-    df_label1 = df[df["label"] == 1].reset_index(drop=True)
-    texts = df_label1["text"].tolist()
-    labels = df_label1["label"].tolist()
+# if __name__ == "__main__":
+#     df = pd.read_csv("data/train_data.csv")
+#     df_label1 = df[df["label"] == 1].reset_index(drop=True)
+#     texts = df_label1["text"].tolist()
+#     labels = df_label1["label"].tolist()
 
-    print(f"Found {len(df_label1)} samples with label == 1.")
+#     print(f"Found {len(df_label1)} samples with label == 1.")
 
-    backtranslate(texts, labels, "data/train_backtranslate.csv")
-    substitute_words(texts, labels, "data/train_cwe_bert.csv")
+#     backtranslate(texts, labels, "data/train_backtranslate.csv")
+#     substitute_words(texts, labels, "data/train_cwe_bert.csv")
 
-    print("\nDone!")
+#     print("\nDone!")
