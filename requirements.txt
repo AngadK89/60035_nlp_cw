@@ -10,3 +10,5 @@ datasets
 scikit-learn
 nltk
 wordcloud
+nlpaug
+sentencepiece
