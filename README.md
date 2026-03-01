@@ -17,7 +17,7 @@ This repository is organised as follows:
   - Supporting resources (e.g., stopword lists)
 
 ### Final Model
-- The final model implementation and training pipeline are provided in [`stage4.ipynb`](./stage4.ipynb)
+- The final model implementation and training pipeline are provided in [`BestModel/stage4.ipynb`](./BestModel/stage4.ipynb)
 
 ### Inference Outputs
 - Predictions for the **dev** and **test** sets are located under the [`inference/`](./inference) folder:
