@@ -25,6 +25,8 @@ This repository is organised as follows:
   - [`inference/test.txt`](./inference/test.txt)
 - The inference pipeline notebook is available at [`inference/inference.ipynb`](./inference/inference.ipynb)
 
-### Error Analysis
-- All error analysis is conducted in the [`error_analysis/`](./error_analysis) folder  
-  *(to be uploaded)*
+### Evaluation
+- All model evaluation is conducted in the [`evaluation/`](./evaluation) folder. This contains:
+  - [`evaluation/error_analysis.ipynb`](./evaluation/error_analysis.ipynb)
+  - [`evaluation/ablation.ipynb`](./evaluation/ablation.ipynb)
+
